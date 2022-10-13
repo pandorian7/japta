@@ -1,9 +1,9 @@
-import hiragana from "./hiragana_alphabet.json";
+import hiragana from "./assets/hiragana_alphabet.json";
 import { useState } from "react";
 import { LetterChecker, revert_dic, BasicChecker } from "./logic";
 import { DropdownButton, Dropdown } from "react-bootstrap";
 
-export default function App() {
+export default function Hiragana() {
   const [mode, setMode] = useState(0);
   return (
     <div className="bg-warning">
